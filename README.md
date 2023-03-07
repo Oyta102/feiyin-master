@@ -3,7 +3,7 @@
 ## 安装
 
 ~~~
-composer ...
+composer require oyta/feiyin
 ~~~
 
 ## 使用说明
