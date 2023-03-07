@@ -6,6 +6,7 @@
 composer require oyta/feiyin
 ~~~
 
+
 ## 使用说明
 
 - 引入方法
@@ -14,10 +15,14 @@ use Oyta\Feiyin\Joint;
 ~~~
 
 
+
+
 - 普通用户数据提交与响应 (用户操作接口不需要设置key)
 ~~~
 Joint::consumer($url,$param);
 ~~~
+
+
 
 - 普通用户数据请求与响应示例
 ~~~
@@ -30,6 +35,8 @@ return $res;
 ~~~
 
 
+
+
 - 设置Key
 ~~~
 Joint::setkey($publicKey, $privateKey);
@@ -38,6 +45,8 @@ Joint::setkey($publicKey, $privateKey);
 ~~~
 Joint::merchant($url,$param);
 ~~~
+
+
 
 - 商户数据请求与响应示例
 ~~~
