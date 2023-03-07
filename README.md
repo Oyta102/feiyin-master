@@ -41,8 +41,8 @@ Joint::merchant($url,$param);
 
 - 商户数据请求与响应示例
 ~~~
-public $publicKey
-public $privateKey
+public $publicKey = 'xxxxxxxx';
+public $privateKey = 'xxxxxxxx';
 Joint::setkey($this->publicKey, $this->privateKey);
 $param = [
     'appid' =>'2056371498',
