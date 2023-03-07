@@ -1,0 +1,18 @@
+{
+    "name": "oyta/feiyin",
+    "description": "飞银卡包插件",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Oyta\\Feiyin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oyta"
+        }
+    ]
+}
